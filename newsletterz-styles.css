@@ -1,0 +1,48 @@
+/* コンテナのスタイル */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* セクション間の隙間を調整 */
+}
+
+/* フォームセクションのスタイル */
+.newsletter-form {
+    flex: 1;
+}
+
+/* プレビューセクションのスタイル */
+.newsletter-preview {
+    flex: 1;
+    padding: 10px;
+    background-color: #dddddd; /* 背景色を変更 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* フォームテーブルのスタイル */
+.form-table th {
+    width: 250px; /* タイトル入力エリアの幅を広げる */
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+/* テキスト入力エリアのスタイル */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%; /* 幅を100%に */
+    min-height: 40px; /* 最小高さを設定 */
+}
+
+/* テキストエリアのスタイル */
+textarea {
+    width: 100%; /* 幅を100%に */
+    min-height: 400px; /* 本文の最小高さを設定 */
+    resize: none; /* サイズ変更を禁止 */
+}
+
+/* プレビューのスタイル */
+#preview {
+    padding: 10px;
+    border-radius: 5px;
+}
